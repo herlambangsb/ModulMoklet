@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/detail_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/a" />
+
+    <TextView
+        android:id="@+id/name_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name Of Image" />
+
+    <TextView
+        android:id="@+id/name_owner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name Of owner" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Describe" />
+
+    <Button
+        android:id="@+id/download"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
