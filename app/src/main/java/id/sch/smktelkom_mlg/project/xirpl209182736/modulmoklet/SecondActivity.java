@@ -29,17 +29,18 @@ public class SecondActivity extends AppCompatActivity {
         mNameOfImage = (TextView) findViewById(R.id.name_image);
         mNameOfOwner = (TextView) findViewById(R.id.name_owner);
         mDesc = (TextView) findViewById(R.id.desc);
-        dwdbutton = (Button) findViewById(R.id.download);
 
         String image = getIntent().getStringExtra("image");
         String imageName = getIntent().getStringExtra("name-image");
         String ownerName = getIntent().getStringExtra("owner-name");
-        String desc = getIntent().getStringExtra("desc");
 
-        findViewById(R.id.download).setOnClickListener(new View.OnClickListener() {
+
+        final String desc = getIntent().getStringExtra("desc");
+
+        findViewById(R.id.desc).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openWebPage("http://www.google.com");
+                openWebPage(getIntent().getStringExtra("desc"));
             }
         });
 

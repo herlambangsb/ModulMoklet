@@ -27,10 +27,9 @@
         android:id="@+id/desc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Describe" />
+        android:clickable="true"
+        android:text="Describe"
+        android:textColor="@color/colorPrimaryDark" />
 
-    <Button
-        android:id="@+id/download"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+
 </LinearLayout>

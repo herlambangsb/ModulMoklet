@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView = (RecyclerView) findViewById(R.id.recyclerview);
 
         mList = new ArrayList<>();
-        mList.add(new ImageModel(String.valueOf(R.drawable.a), "Drink 1", " Putu Joli Artaguna", "This is the best drink in the world."));
+        mList.add(new ImageModel(String.valueOf(R.drawable.a), "Drink 1", " Putu Joli Artaguna", "http://youtube.com"));
         mList.add(new ImageModel(String.valueOf(R.drawable.b), "Drink 2", " putu guna", "This is the best drink in the world."));
         mList.add(new ImageModel(String.valueOf(R.drawable.c), "Drink 3", " Putu Guna", "This is the best drink in the world."));
         mList.add(new ImageModel(String.valueOf(R.drawable.d), "Drink 4", " Putu Guna", "This is the best drink in the world."));
