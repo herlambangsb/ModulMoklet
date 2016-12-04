@@ -23,10 +23,13 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView = (RecyclerView) findViewById(R.id.recyclerview);
 
         mList = new ArrayList<>();
-        mList.add(new ImageModel(String.valueOf(R.drawable.a), "MODUL PPB", " Modul 1 \n Modul 2 \n Modul 3 \n Modul 4 \n Modul 5", "http://youtube.com"));
-        mList.add(new ImageModel(String.valueOf(R.drawable.b), "MODUL PBO", " Modul 1 \n Modul 2 \n Modul 3 \n Modul 4 \n Modul 5", "."));
-        mList.add(new ImageModel(String.valueOf(R.drawable.c), "MODUL PWD", " Modul 1 \n Modul 2 \n Modul 3 \n Modul 4 \n Modul 5", "This is the best drink in the world."));
-        mList.add(new ImageModel(String.valueOf(R.drawable.d), "MODUL DESKTOP", " Modul 1 \n Modul 2 \n Modul 3 \n Modul 4 \n Modul 5", "This is the best drink in the world."));
+        mList.add(new ImageModel(String.valueOf(R.drawable.a), "MODUL PPB", " Modul 1 Instalasi Software \n Modul 2 New Android Project \n Modul 3 Setup Emulator Device  \n Modul 4 Version Control System \n Modul 5 Widget Dasar \n\n Link \n", "https://drive.google.com/file/d/0B8C9oWT_mlbkb0dvY2NORXVpMW8/view"));
+        mList.add(new ImageModel(String.valueOf(R.drawable.b), "MODUL PBO", " Modul 1 Java \n Modul 2 Program Dasar \n Modul 3 Inheritance \n Modul 4 Encapsulation \n Modul 5 Polymorphism", "https://drive.google.com/file/d/0B4NTpcy8JM6KQUxsMElRenBFb2c/view"));
+        mList.add(new ImageModel(String.valueOf(R.drawable.c), "MODUL PPKN", " Modul 1 Kasus Pelanggaran HAM \n Modul 2 Ketentuan Konstitusi Kehidupan Berbangsa & Bernegara \n Modul 3 Dinamika Demokrasi \n Modul 4 Penyelenggaraan Kekuasaan \n Modul 5 Penegakan Hukum Indonesia", "https://drive.google.com/file/d/0Bz1pdl-Hrw0uRkFUenB3VFlwNGM/view"));
+        mList.add(new ImageModel(String.valueOf(R.drawable.d), "MODUL PWD", " Modul 1 Pengenalan PHP \n Modul 2 Eksplorasi PHP \n Modul 3 Array dan Operator \n Modul 4 Percabangan \n Modul 5 Boostrap", "https://drive.google.com/file/d/0ByWHzF_RxJqqN0dsaXpQYjZRTHc/view"));
+        mList.add(new ImageModel(String.valueOf(R.drawable.e), "MODUL PWD", " Modul 1 Pengenalan PHP \n Modul 2 Eksplorasi PHP \n Modul 3 Array dan Operator \n Modul 4 Percabangan \n Modul 5 Boostrap", "https://drive.google.com/file/d/0ByWHzF_RxJqqN0dsaXpQYjZRTHc/view"));
+        mList.add(new ImageModel(String.valueOf(R.drawable.f), "MODUL PWD", " Modul 1 Pengenalan PHP \n Modul 2 Eksplorasi PHP \n Modul 3 Array dan Operator \n Modul 4 Percabangan \n Modul 5 Boostrap", "https://drive.google.com/file/d/0ByWHzF_RxJqqN0dsaXpQYjZRTHc/view"));
+        mList.add(new ImageModel(String.valueOf(R.drawable.g), "MODUL PWD", " Modul 1 Pengenalan PHP \n Modul 2 Eksplorasi PHP \n Modul 3 Array dan Operator \n Modul 4 Percabangan \n Modul 5 Boostrap", "https://drive.google.com/file/d/0ByWHzF_RxJqqN0dsaXpQYjZRTHc/view"));
 
 
         mAdapter = new ImageAdapter(mList, this);

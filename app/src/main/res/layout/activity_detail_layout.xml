@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="?attr/colorControlHighlight"
     android:orientation="vertical">
 
     <ImageView
@@ -15,7 +16,10 @@
         android:id="@+id/name_image"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:padding="10dp"
         android:text="Name Of Image"
+        android:textColor="@android:color/black"
         android:textIsSelectable="false"
         android:textSize="25dp" />
 
@@ -23,15 +27,19 @@
         android:id="@+id/name_owner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="?attr/colorControlHighlight"
+        android:padding="5dp"
         android:text="Name Of owner" />
 
     <TextView
         android:id="@+id/desc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="?attr/colorControlHighlight"
         android:clickable="true"
+        android:padding="10dp"
         android:text="Describe"
-        android:textColor="@color/colorPrimaryDark" />
+        android:textColor="@android:color/holo_blue_dark" />
 
 
 </LinearLayout>

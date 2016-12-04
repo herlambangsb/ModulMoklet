@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.support.v4.view.ViewCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -18,7 +17,6 @@ public class SecondActivity extends AppCompatActivity {
     private TextView mNameOfImage;
     private TextView mNameOfOwner;
     private TextView mDesc;
-    private Button dwdbutton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
