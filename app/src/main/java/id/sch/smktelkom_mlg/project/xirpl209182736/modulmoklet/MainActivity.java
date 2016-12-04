@@ -23,12 +23,10 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView = (RecyclerView) findViewById(R.id.recyclerview);
 
         mList = new ArrayList<>();
-        mList.add(new ImageModel(String.valueOf(R.drawable.a), "Drink 1", " Putu Joli Artaguna", "http://youtube.com"));
-        mList.add(new ImageModel(String.valueOf(R.drawable.b), "Drink 2", " putu guna", "This is the best drink in the world."));
-        mList.add(new ImageModel(String.valueOf(R.drawable.c), "Drink 3", " Putu Guna", "This is the best drink in the world."));
-        mList.add(new ImageModel(String.valueOf(R.drawable.d), "Drink 4", " Putu Guna", "This is the best drink in the world."));
-        mList.add(new ImageModel(String.valueOf(R.drawable.e), "Drink 5", " Putu Guna", "This is the best drink in the world."));
-        mList.add(new ImageModel(String.valueOf(R.drawable.f), "Packet 1", " putuguna.com", "This is the best packet in the world."));
+        mList.add(new ImageModel(String.valueOf(R.drawable.a), "MODUL PPB", " Modul 1 \n Modul 2 \n Modul 3 \n Modul 4 \n Modul 5", "http://youtube.com"));
+        mList.add(new ImageModel(String.valueOf(R.drawable.b), "MODUL PBO", " Modul 1 \n Modul 2 \n Modul 3 \n Modul 4 \n Modul 5", "."));
+        mList.add(new ImageModel(String.valueOf(R.drawable.c), "MODUL PWD", " Modul 1 \n Modul 2 \n Modul 3 \n Modul 4 \n Modul 5", "This is the best drink in the world."));
+        mList.add(new ImageModel(String.valueOf(R.drawable.d), "MODUL DESKTOP", " Modul 1 \n Modul 2 \n Modul 3 \n Modul 4 \n Modul 5", "This is the best drink in the world."));
 
 
         mAdapter = new ImageAdapter(mList, this);

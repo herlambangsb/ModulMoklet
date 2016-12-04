@@ -15,7 +15,9 @@
         android:id="@+id/name_image"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Name Of Image" />
+        android:text="Name Of Image"
+        android:textIsSelectable="false"
+        android:textSize="25dp" />
 
     <TextView
         android:id="@+id/name_owner"
